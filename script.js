@@ -265,3 +265,66 @@ document.querySelectorAll('.social-film-row').forEach(row => {
   row.style.transition = "all 0.8s cubic-bezier(0.16, 1, 0.3, 1)";
   revealOnScroll.observe(row);
 });
+
+// Handle form submission via AJAX
+const serviceForm = document.querySelector('.service-form-kinetic');
+const feedbackDiv = document.getElementById('form-feedback');
+
+if (serviceForm && feedbackDiv) {
+  serviceForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const submitBtn = serviceForm.querySelector('button[type="submit"]');
+    const originalBtnText = submitBtn.innerHTML;
+
+    // Loading state
+    submitBtn.innerHTML = '<span class="btn-txt">Transmitting...</span>';
+    submitBtn.disabled = true;
+    feedbackDiv.style.display = 'none';
+    feedbackDiv.className = 'form-feedback';
+
+    const formData = new FormData(serviceForm);
+    const data = Object.fromEntries(formData.entries());
+
+    try {
+      const response = await fetch('api/service-request.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(data)
+      });
+
+      const result = await response.json();
+
+      if (response.ok && result.success) {
+        // Success
+        feedbackDiv.textContent = 'Request submitted successfully';
+        feedbackDiv.style.color = '#fff';
+        feedbackDiv.style.background = 'rgba(46, 213, 115, 0.2)';
+        feedbackDiv.style.border = '1px solid rgba(46, 213, 115, 0.4)';
+        feedbackDiv.style.display = 'block';
+        serviceForm.reset();
+      } else {
+        // Error from server
+        feedbackDiv.textContent = result.error || 'An error occurred. Please try again.';
+        feedbackDiv.style.color = '#fff';
+        feedbackDiv.style.background = 'rgba(255, 71, 87, 0.2)';
+        feedbackDiv.style.border = '1px solid rgba(255, 71, 87, 0.4)';
+        feedbackDiv.style.display = 'block';
+      }
+    } catch (error) {
+      // Network Error
+      feedbackDiv.textContent = 'Failed to connect to the server. Please try again.';
+      feedbackDiv.style.color = '#fff';
+      feedbackDiv.style.background = 'rgba(255, 71, 87, 0.2)';
+      feedbackDiv.style.border = '1px solid rgba(255, 71, 87, 0.4)';
+      feedbackDiv.style.display = 'block';
+    } finally {
+      // Revert loading state
+      submitBtn.innerHTML = originalBtnText;
+      submitBtn.disabled = false;
+    }
+  });
+}
