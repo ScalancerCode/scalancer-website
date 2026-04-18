@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="data-brand-name — Software engineering for web, mobile, SaaS, and UI/UX. We build scalable digital products with clean architecture and strong support." />
+  <meta name="theme-color" content="#0d0d0d" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="data-brand-name | Engineering the Future of Digital Innovation" />
+  <meta property="og:description" content="Software engineering for web, mobile, SaaS, and UI/UX. Scalable architecture, fast delivery, strong support." />
+  <title>data-brand-name | Engineering the Future of Digital Innovation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Special+Elite&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"<span data-brand-name></span>","description":"Software engineering company specializing in web development, mobile apps, SaaS solutions, and UI/UX design.","url":"https://scalancer.com","email":"contact@scalancer.com"}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="data-brand-name home">
+        <img src="images/scalancer_fox_no_bg.png" alt="data-brand-name" class="logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <span class="logo-fallback" style="display:none"><span data-brand-name></span><span class="logo-accent"></span></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">Company</a></li>
+          <li><a href="#why">Approach</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="kinetic-cta">
+        <span class="cta-text">Get in Touch</span>
+        <svg class="cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </a>
+
+      <button type="button" class="kinetic-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="mobile-nav" class="mobile-nav" hidden>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#why">Approach</a>
+      <a href="#contact" class="btn btn-primary">Contact</a>
+    </div>
+  </header>
+
+  <!-- FULLSCREEN MOBILE NAV -->
+  <nav class="fullscreen-menu" id="mobile-nav" aria-hidden="true">
+    <div class="menu-background-noise"></div>
+    
+    <div class="menu-inner">
+      <span class="menu-eyebrow">Navigation</span>
+      
+      <ul class="menu-list">
+        <li><a href="#people" class="menu-link" data-text="Our People">Our People</a></li>
+        <li><a href="#gallery" class="menu-link" data-text="Gallery">Gallery</a></li>
+        <li><a href="#social" class="menu-link" data-text="Social Media">Social Media</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <video id="hero-video" class="hero-video" autoplay muted loop playsinline preload="metadata">
+        <source src="public/videos/hero-video.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <span class="hero-eyebrow" data-reveal-hero>Engineering Excellence</span>
+          <h1 id="hero-heading" data-reveal-hero>Sketching the<br><em>Future</em></h1>
+          <div class="hero-actions-premium" data-reveal-hero>
+            <a href="#services" class="cta-primary-depth">
+              <span class="cta-text-gold">Explore Services</span>
+              <svg class="cta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+
+            <a href="#work" class="cta-secondary-minimal">
+              <span>View Our Work</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-aside" aria-hidden="true" data-reveal-hero>
+          <div class="hero-stat">
+            <span class="hero-stat-num">6+</span>
+            <span class="hero-stat-label">Core Capabilities</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">2+</span>
+            <span class="hero-stat-label">Products Shipped</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">∞</span>
+            <span class="hero-stat-label">Ambition</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- MANIFESTO -->
+    <section id="manifesto" class="section manifesto" aria-labelledby="manifesto-heading">
+      <div class="container">
+        
+        <header class="section-header" data-reveal>
+          <span class="section-eyebrow">The Directive</span>
+          <h2 id="manifesto-heading" class="section-title">Our <em>Philosophy</em></h2>
+        </header>
+
+        <div class="manifesto-showcase" data-reveal>
+          <div class="manifesto-card">
+            
+            <div class="manifesto-visual" aria-hidden="true">
+              <div class="manifesto-bg-grid"></div>
+              <div class="manifesto-glow"></div>
+            </div>
+
+            <div class="manifesto-meta">
+              <span class="manifesto-tag">OUR EXECUTION PROTOCOL</span>
+              
+              <p id="typing-text-manifesto" class="typing-text-classy" aria-live="polite"></p>
+              
+              <div class="manifesto-signature">
+                <span class="signature-line"></span>
+                <span class="signature-text"><span data-brand-name></span></span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section services" aria-labelledby="services-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow">What we do</p>
+          <h2 id="services-heading" class="section-title">Capabilities Built for<br><em>Ambitious Teams</em></h2>
+          <p class="section-lead">End-to-end engineering with a product lens so your roadmap moves as fast as your market.</p>
+        </header>
+        <ul class="service-grid">
+          <li class="service-card" data-reveal>
+            <div class="service-card-number" aria-hidden="true">01</div>
+            <div class="service-icon" aria-hidden="true">
+              <div class="service-icon" aria-hidden="true">
+                <img src="images/coding.png" alt="Layered system icon" class="service-icon-img">
+              </div>
+            </div>
+            <h3 class="service-title">Web Development</h3>
+            <p class="service-desc">Build fast, scalable digital experiences with responsive design, server-side rendering, API integrations, and secure backends for business growth.</p>
+            <div class="service-image-grid-wrapper" aria-hidden="true">
+              <div class="service-image-reveal">
+                <img src="images/web_Card4.jpeg" alt="Web Development representation" class="service-reveal-img">
+              </div>
+            </div>
+            <div class="service-arrow" aria-hidden="true">→</div>
+          </li>
+          <li class="service-card" data-reveal>
+            <div class="service-card-number" aria-hidden="true">02</div>
+            <div class="service-icon" aria-hidden="true">
+              <div class="service-icon" aria-hidden="true">
+                <img src="images/iphone.png" alt="Layered system icon" class="service-icon-img">
+              </div>
+            </div>
+            <h3 class="service-title">Mobile App Development</h3>
+            <p class="service-desc">Enjoy native-like experiences on iOS and Android with offline-first design, smooth animations, fast performance, secure data, and seamless sync.</p>
+            <div class="service-image-grid-wrapper" aria-hidden="true">
+              <div class="service-image-reveal">
+                <img src="images/mob_card4.jpeg" alt="Mobile App Development representation" class="service-reveal-img">
+              </div>
+            </div>
+            <div class="service-arrow" aria-hidden="true">→</div>
+          </li>
+          <li class="service-card" data-reveal>
+            <div class="service-card-number" aria-hidden="true">03</div>
+            <div class="service-icon" aria-hidden="true">
+              <div class="service-icon" aria-hidden="true">
+                <img src="images/saas.png" alt="Layered system icon" class="service-icon-img">
+              </div>
+            </div>
+            <h3 class="service-title">SaaS Solutions</h3>
+            <p class="service-desc">Multi-tenant platforms offer integrated billing, authentication, and observability, enhancing user retention, driving growth, and ensuring efficient management.</p>
+            <div class="service-image-grid-wrapper" aria-hidden="true">
+              <div class="service-image-reveal">
+                <img src="images/saas4.jpeg" alt="SaaS Solutions representation" class="service-reveal-img">
+              </div>
+            </div>
+            <div class="service-arrow" aria-hidden="true">→</div>
+          </li>
+          <li class="service-card" data-reveal>
+            <div class="service-card-number" aria-hidden="true">04</div>
+            <div class="service-icon" aria-hidden="true">
+              <div class="service-icon" aria-hidden="true">
+                <img src="images/cyber-security.png" alt="Layered system icon" class="service-icon-img">
+              </div>
+            </div>
+            <h3 class="service-title">Cyber Security</h3>
+            <p class="service-desc">Safeguard systems and data using advanced security, threat detection, and resilient architectures for comprehensive protection and operational continuity.</p>
+            <div class="service-image-grid-wrapper" aria-hidden="true">
+              <div class="service-image-reveal">
+                <img src="images/cyber.jpeg" alt="Cyber Security representation" class="service-reveal-img">
+              </div>
+            </div>
+            <div class="service-arrow" aria-hidden="true">→</div>
+          </li>
+          <li class="service-card" data-reveal>
+            <div class="service-card-number" aria-hidden="true">05</div>
+            <div class="service-icon" aria-hidden="true">
+              <div class="service-icon" aria-hidden="true">
+                <img src="images/integrated-system.png" alt="Layered system icon" class="service-icon-img">
+              </div>            
+            </div>
+            <h3 class="service-title">Embedded Systems</h3>
+            <p class="service-desc">High-performance embedded solutions for hardware-integrated applications and real-time systems, ensuring reliability and efficiency in diverse environments.</p>
+            <div class="service-image-grid-wrapper" aria-hidden="true">
+              <div class="service-image-reveal">
+                <img src="images/emb2.jpeg" alt="Embedded Systems representation" class="service-reveal-img">
+              </div>
+            </div>
+            <div class="service-arrow" aria-hidden="true">→</div>
+          </li>
+          <li class="service-card service-card--featured" data-reveal>
+            <div class="service-card-number" aria-hidden="true">06</div>
+            
+            <div class="service-icon" aria-hidden="true">
+              <img src="images/brain.png" alt="AI Brain icon" class="service-icon-img">
+            </div>            
+            
+            <h3 class="service-title">AI &amp; Machine Learning</h3>
+            
+            <p class="service-desc">Intelligent systems leverage machine learning, data analysis, and AI-driven automation to efficiently address and resolve intricate problems.</p>
+            
+            <div class="service-image-grid-wrapper" aria-hidden="true">
+              <div class="service-image-reveal">
+                <img src="images/ai.jpeg" alt="AI & Machine Learning representation" class="service-reveal-img">
+              </div>
+            </div>
+
+            <div class="service-arrow" aria-hidden="true">→</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section work" aria-labelledby="work-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow">Selected Work</p>
+          <h2 id="work-heading" class="section-title">Products that<br><em>Performs</em></h2>
+        </header>
+      </div>
+      <div class="work-showcase">
+
+        <article class="work-item" data-reveal>
+  
+          <div class="work-visual">
+            <img src="images/expos4.jpeg" alt="ExPOS" class="work-img" />
+            
+            <div class="work-visual-glass">
+              <ul class="feature-list">
+                <li>Smart Billing System</li>
+                <li>Sales Analytics &amp; Reports</li>
+                <li>Credit Management</li>
+                <li>AI-Based Suggestions</li>
+                <li>Inventory / Stock Management</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="work-copy">
+            <span class="section-eyebrow">Retail / POS</span>
+            <h3 class="work-name">ExPOS</h3>
+            <p class="work-subtitle">A Smart Point of Sale System</p>
+            <p class="work-desc">ExPOS is a comprehensive point of sale system meticulously engineered to streamline retail and complex business operations. Built for uncompromising performance and scalability, it transcends traditional checkout systems by integrating advanced, intuitive billing with real-time sales analytics and dynamic reporting.</p>
+          </div>
+
+        </article>
+
+        <article class="work-item work-item--reverse" data-reveal>
+  
+          <div class="work-visual">
+            <img src="images/agri-ledger.jpg" alt="Agri Ledger management interface" class="work-img" onerror="this.parentElement.classList.add('work-visual--fallback')" />
+            
+            <div class="work-visual-glass">
+              <ul class="feature-list">
+                <li>Bulk Inventory Tracking</li>
+                <li>Farmer Ledger System</li>
+                <li>Commodity Pricing Engine</li>
+                <li>Real-Time Trade Analytics</li>
+                <li>Transaction Auditing</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="work-copy">
+            <span class="section-eyebrow">Agriculture</span>
+            <h3 class="work-name">Agri Ledger</h3>
+            <p class="work-subtitle">Agricultural Management System</p>
+            <p class="work-desc">A streamlined system to manage agricultural goods collected from farmers and sold in bulk. Tracks stock, sales, and transactions for products like pepper, spices, and coconut with clarity and precision.</p>
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PEOPLE -->
+    <section id="team" class="section collective">
+      <div class="container">
+
+        <header class="section-header" data-reveal>
+          <span class="section-eyebrow">The Collective</span>
+
+          <h2 class="section-title">
+            Architects of<br>
+            <em><span data-brand-name></span></em>
+          </h2>
+
+          <p class="section-lead">
+            We are a specialized collective of engineers, researchers, and strategists. 
+            Driven by deep tech and market intelligence, our core divisions work in seamless synergy 
+            to build digital products that matter.
+          </p>
+        </header>
+
+        <div class="collective-grid">
+
+          <article class="collective-card" data-reveal>
+            <div class="node-visual">
+              <div class="node-core"></div>
+              <div class="node-ring"></div>
+            </div>
+
+            <div class="collective-meta">
+              <span class="collective-tag">Technical Leadership</span>
+
+              <h3 class="service-title">Systems & Architecture</h3>
+
+              <div class="collective-desc">
+                <p>
+                  Led by experienced software industry leaders, this division designs enterprise-grade 
+                  technology solutions. It focuses on understanding client needs to deliver reliable, 
+                  scalable systems that streamline operations and align with business goals.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="collective-card" data-reveal>
+            <div class="node-visual">
+              <div class="node-core"></div>
+              <div class="node-ring"></div>
+            </div>
+
+            <div class="collective-meta">
+              <span class="collective-tag">Deep Tech & Research</span>
+
+              <h3 class="service-title">Advanced Engineering</h3>
+
+              <div class="collective-desc">
+                <p>
+                  Our deep-tech core, specialises in backend infrastructure, Linux, cloud technologies, 
+                  and DevOps. We lead in mixed-criticality scheduling for multi-core systems and pioneer 
+                  AI and Machine Learning, advancing sectors like healthcare.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="collective-card" data-reveal>
+            <div class="node-visual">
+              <div class="node-core"></div>
+              <div class="node-ring"></div>
+            </div>
+
+            <div class="collective-meta">
+              <span class="collective-tag">Market Intelligence</span>
+
+              <h3 class="service-title">Growth & Strategy</h3>
+
+              <div class="collective-desc">
+                <p>
+                  Our growth division specialises in digital strategy, market analysis, and brand expansion. 
+                  We collaborate with the engineering team to turn technical capabilities into compelling 
+                  narratives, ensuring our software solutions meet business needs.
+                </p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <header class="section-header" data-reveal>
+          <span class="section-eyebrow">Inside the Studio</span>
+          <h2 class="section-title">The<br> <em>Gallery</em></h2>
+          <!-- <div class="swipe-hint">
+            <div class="swipe-line"></div>
+            <span>Swipe to Explore></span>
+            <div class="swipe-line"></div>
+          </div> -->
+        </header>
+      </div>
+
+      <!-- <div class="gallery-slider" data-reveal>
+        <div class="gallery-track"> 
+          
+          <div class="gallery-item">
+    
+            <div class="gallery-frame">
+              <img src="images/expos_supermarket.jpg" alt="ExPOS Software Launch" class="gallery-photo">
+              
+              <div class="gallery-overlay">
+                <span class="view-btn">View Photo</span>
+              </div>
+            </div>
+
+            <div class="gallery-meta">
+              <span class="gallery-date">2026</span>
+              <h3 class="gallery-caption">ExPOS Software Launch Event</h3>
+            </div>
+
+          </div>
+
+          <div class="gallery-item">
+            <div class="gallery-placeholder">
+              <div class="placeholder-glow"></div>
+              <span class="placeholder-icon">✦</span>
+              <div class="gallery-overlay"><span class="view-btn">View Photo</span></div>
+            </div>
+            <div class="gallery-meta">
+              <span class="gallery-date">Training</span>
+              <h3 class="gallery-caption">Taiwan Facility Excursion</h3>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <div class="gallery-placeholder">
+              <div class="placeholder-glow"></div>
+              <span class="placeholder-icon">✦</span>
+              <div class="gallery-overlay"><span class="view-btn">View Photo</span></div>
+            </div>
+            <div class="gallery-meta">
+              <span class="gallery-date">Culture</span>
+              <h3 class="gallery-caption">Company Cricket League Finals</h3>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <div class="gallery-placeholder">
+              <div class="placeholder-glow"></div>
+              <span class="placeholder-icon">✦</span>
+              <div class="gallery-overlay"><span class="view-btn">View Photo</span></div>
+            </div>
+            <div class="gallery-meta">
+              <span class="gallery-date">Brand</span>
+              <h3 class="gallery-caption">Cinematic Branding Concept</h3>
+            </div>
+          </div>
+          
+          <div class="gallery-spacer"></div>
+
+        </div>
+      </div> -->
+
+      <div class="gallery-loading-state" data-reveal>
+    
+        <div class="premium-hourglass">
+          <div class="hourglass-glass"></div>
+        </div>
+        
+        <div class="loading-meta">
+          <span class="loading-label">System Status</span>
+          <h3 class="loading-text">Archiving Studio Assets<span class="pulse-dots">...</span></h3>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about" aria-labelledby="about-heading">
+      <div class="container">
+        
+        <div class="about-text">
+          <p class="section-eyebrow">The <span data-brand-name></span> Standard</p>
+          <h2 id="about-heading" class="section-title">Innovation with<br><em>reliability</em> at the core of <span data-brand-name></span>.</h2>
+          
+          <div class="about-desc-wrapper">
+            <p class="section-lead"><span data-brand-name></span> started as a small team of engineers frustrated by brittle software and vague handoffs. Today we partner with founders and enterprises who need clarity — not just code.</p>
+            <p class="section-lead">We treat every engagement like a long-term product: documented architecture, measurable outcomes, and teams that can own what we ship. Your users feel the difference in speed, stability, and craft.</p>
+          </div>
+
+          <div class="about-actions">
+            <a href="#contact" class="kinetic-cta">
+              <span class="cta-text">Start a Project</span>
+              <svg class="cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <div class="action-line"></div>
+          </div>
+        </div>
+
+        <div class="kinetic-display" data-reveal>
+          <div class="marquee-track">
+            
+            <!-- REACT -->
+            <div class="emblem-large">
+              <svg class="multi-color-svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="16" cy="15.974" r="2.858" fill="#00d8ff" />
+                <ellipse cx="16" cy="15.974" rx="16" ry="6.25" fill="none" stroke="#00d8ff" stroke-width="1.367" />
+                <g transform="rotate(60 16 15.974)">
+                  <ellipse cx="16" cy="15.974" rx="16" ry="6.25" fill="none" stroke="#00d8ff" stroke-width="1.367" />
+                </g>
+                <g transform="rotate(120 16 15.974)">
+                  <ellipse cx="16" cy="15.974" rx="16" ry="6.25" fill="none" stroke="#00d8ff" stroke-width="1.367" />
+                </g>
+              </svg>
+              <span class="emblem-tooltip">React</span>
+            </div>
+
+            <!-- FASTAPI -->
+            <div class="emblem-large">
+              <svg class="multi-color-svg" viewBox="0 0 1024 369" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#009688" d="M233.4,123.6C235.7,125.3 237.8,127.1 240,129C240.9,129.8 241.8,130.6 242.7,131.4C255.9,143.8 264.4,160.9 265.2,179.2C265.7,198.8 261.2,217.8 247.5,232.6C245.7,234.4 243.9,236.2 242,238C241.4,238.7 240.7,239.3 240,240C226.2,253.4 207.5,257.6 188.8,257.5C167.9,256.8 150.2,247.9 135.8,232.8C121.1,215.4 117.6,195.2 119,173C121.2,154.9 131.7,138.5 145.4,126.9C171,107.9 206.5,105.8 233.4,123.6Z" />
+                <path fill="#009688" d="M693,121C698.9,121 704.9,121 711,121C727,154.4 740.3,188.9 753.1,223.6C754.1,226.2 755,228.8 756,231.3C756.3,232.2 756.6,233.1 757,234C757.6,235.7 758.2,237.3 758.9,239C761,244.8 761,244.8 761,247C754.4,247 747.8,247 741,247C738,240 735.2,233.1 732.7,225.9C732.4,225.2 732.2,224.5 731.9,223.7C730.8,220.7 730,218.2 730,215C711.5,215.3 693,215.7 674,216C670.4,225.8 670.4,225.8 666.8,235.7C666.4,236.9 666,238.1 665.5,239.3C665.3,240 665,240.6 664.8,241.3C663.1,245.9 663.1,245.9 662,247C660.6,247.1 659.2,247.1 657.7,247.1C656.9,247.1 656,247.1 655.2,247.1C654.3,247.1 653.4,247.1 652.4,247.1C651.5,247.1 650.6,247.1 649.7,247C647.5,247 645.2,247 643,247C645.6,237.5 649.1,228.3 652.5,219.1C652.8,218.3 653.1,217.4 653.4,216.6C665.4,184.2 678.5,152.4 693,121ZM701,143C686.6,170.8 686.6,170.8 679,200C693.8,200 708.7,200 724,200C722.1,193.5 720.1,187.3 717.6,181C717.2,180.2 716.9,179.4 716.6,178.6C715.9,176.9 715.3,175.2 714.6,173.5C713.6,170.9 712.6,168.4 711.5,165.8C710.9,164.2 710.2,162.5 709.6,160.8C709.1,159.7 709.1,159.7 708.7,158.6C706.6,153.3 704.3,148.1 702,143C701.7,143 701.3,143 701,143Z" />
+                <path fill="#009688" d="M855.1,131.7C862.2,138.2 865.6,146.7 866.2,156.2C866.5,167.9 864.8,177.9 857,187C846.6,197.8 831.3,199.8 817,201C810.1,201 803.1,201 796,201C796,216.2 796,231.4 796,247C789.7,247 783.5,247 777,247C777,206.1 777,165.2 777,123C800.4,116.3 835.3,115.9 855.1,131.7ZM796,136C796,152.2 796,168.3 796,185C821.1,186.1 821.1,186.1 842.5,174.9C846.5,169.7 847.3,163 846.8,156.5C845.7,150.2 843.1,145.4 838.1,141.5C825.4,133.8 810.2,136 796,136Z" />
+                <path fill="#009688" d="M463.4,155.6C471.3,162.1 474.2,169.1 476,179C476.4,184.3 476.4,189.5 476.3,194.8C476.3,196.3 476.3,197.8 476.3,199.3C476.3,203.1 476.2,207 476.2,210.9C476.2,214.8 476.2,218.8 476.1,222.8C476.1,230.5 476.1,238.3 476,246C472.1,246.5 468.2,247 464.2,247.5C463.1,247.6 462.1,247.8 460.9,247.9C444.7,249.9 425.9,252.1 411.7,242.4C406.6,238.3 403.2,233.4 402,227C401.3,218.4 400.6,209.3 406,202C413.1,194 422.5,190.1 433,189C441.6,188.6 449.7,188.8 458,191C457.7,180.3 457.7,180.3 453,171C446.8,166 439.7,165.4 432,166C427.8,166.7 423.6,167.5 419.5,168.3C416,169 416,169 413,169C412.3,164.1 411.7,159.1 411,154C426.9,149 448.6,145.8 463.4,155.6ZM420.9,211.2C419.1,216.9 419.1,222 421.6,227.4C425.6,231.7 430.4,233.8 436.2,234.1C437,234.1 437.8,234.1 438.6,234.1C439.9,234.1 439.9,234.1 441.3,234.1C442.2,234.1 443.1,234.1 444,234.1C444.9,234.1 445.8,234.1 446.7,234.1C447.6,234.1 448.5,234.1 449.4,234.1C450.2,234.1 451,234.1 451.8,234.1C454.3,234.1 454.3,234.1 458,233C458,223.8 458,214.5 458,205C445.8,201.9 430.1,201.7 420.9,211.2Z" />
+                <path fill="#009688" d="M322,121C347.1,121 372.2,121 398,121C398,126.3 398,131.6 398,137C378.9,137 359.7,137 340,137C340,149.2 340,161.4 340,174C357.2,174 374.3,174 392,174C392,178.9 392,183.9 392,189C374.8,189 357.7,189 340,189C340,208.1 340,227.3 340,247C334.1,247 328.1,247 322,247C322,205.4 322,163.8 322,121Z" />
+                <path fill="#009688" d="M558,154C557,158.9 556,163.9 555,169C545,167 545,167 542.6,166.5C533.7,164.9 525.6,165 518,170C515.6,172 515.6,172 515.6,175.8C515.7,179.4 516.4,181.9 519,184.6C523.2,187.6 528.2,189.3 533,191.2C556.4,200.4 556.4,200.4 561.3,211.1C564.1,218.7 563.8,226.5 560.9,234C558.2,240 553.7,243.1 548,246C540.3,248.8 532.9,249.5 524.8,249.4C523.7,249.4 522.6,249.4 521.5,249.4C501.1,249.1 501.1,249.1 496,244C496.2,239 496.9,233.9 498,229C502.2,229.5 505.9,230.3 509.9,231.6C519.5,234.3 532.1,235 541,230C543.6,227.7 543.9,226.5 544.4,223.1C543.9,219.5 543.2,217.9 541,215C538.8,213.5 536.7,212.3 534.3,211.1C533.3,210.6 533.3,210.6 532.3,210.1C527.5,207.6 522.6,205.5 517.6,203.4C508.6,199.5 502,196.1 497.8,186.8C495.6,179.3 495.9,171.1 499.6,164.1C504.6,156.8 510.8,152.8 519.3,150.6C531.2,148.6 547,148.5 558,154Z" />
+                <path fill="#009688" d="M600,123C600,132.6 600,142.1 600,152C611.9,152 623.8,152 636,152C636,156.9 636,161.9 636,167C624.1,167 612.2,167 600,167C600.1,174 600.2,180.9 600.3,187.9C600.4,190.3 600.4,192.7 600.4,195C600.5,198.5 600.5,201.9 600.6,205.3C600.6,206.3 600.6,207.4 600.6,208.5C600.8,216 601.1,223.8 606,230C613.6,233.9 623.9,232.9 631.9,230.5C633.3,230 634.7,229.5 636,229C636.5,230.7 637.1,232.5 637.6,234.2C637.9,235.2 638.1,236.1 638.4,237.1C639,240.1 638.8,242.1 638,245C625,249.7 610.3,252 597.2,246.2C590,242.3 586.8,237.4 584,230C581.2,218.8 581.7,207.3 581.8,195.8C581.8,193.8 581.8,191.8 581.8,189.8C581.8,184.5 581.8,179.2 581.9,173.9C581.9,168.5 581.9,163.1 581.9,157.7C581.9,147.1 582,136.6 582,126C584.4,125.5 586.9,125 589.3,124.5C590,124.4 590.7,124.2 591.4,124.1C594.3,123.5 597,123 600,123Z" />
+                <path fill="#009688" d="M887,121C892.9,121 898.9,121 905,121C905,162.6 905,204.2 905,247C899.1,247 893.1,247 887,247C887,205.4 887,163.8 887,121Z" />
+                <path fill="#FFFFFF" d="M186,145C201.2,145 216.4,145 232,145C228.3,148 224.5,150.9 220.6,153.8C219.7,154.4 219.7,154.4 218.7,155.1C209,162.3 199,169.1 189,176C202.9,176.5 202.9,176.5 217,177C211.4,182.6 211.4,182.6 207.8,185.1C206.7,185.9 206.7,185.9 205.5,186.7C204.6,187.3 203.8,187.8 202.9,188.4C201.1,189.7 199.3,190.9 197.5,192.2C196.2,193.1 196.2,193.1 194.8,194.1C190.4,197.1 186.1,200.1 181.8,203.1C181,203.7 180.2,204.3 179.3,204.9C175.2,207.7 171.1,210.6 167.1,213.5C166.3,214.1 165.5,214.6 164.7,215.2C163.2,216.2 161.8,217.3 160.3,218.4C157.5,220.3 155.2,221.9 152,223C154.4,215 157.8,207.6 161.3,200C163.1,196.1 164.9,192.3 166.7,188.4C167.2,187.2 167.2,187.2 167.8,186C171.4,178.2 174.9,170.4 178.4,162.6C178.6,162 178.9,161.4 179.2,160.8C181.6,155.5 183.9,150.3 186,145Z" />
+              </svg>
+              <span class="emblem-tooltip">FastAPI</span>
+            </div>
+
+            <!-- ANDROID -->
+            <div class="emblem-large">
+              <svg class="multi-color-svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#A4C639" d="M10.45,0.234l1.44,2.57C9.215,4.14 7.365,6.7 7.365,9.692h17.27c0,-2.98 -1.85,-5.55 -4.523,-6.888l1.44,-2.57s0.103,-0.103 -0.103,-0.206c-0.103,-0.103 -0.206,0.103 -0.206,0.103L19.7,2.702a9.35,9.35 0,0 0,-3.804 -0.822,9.35 9.35,0 0,0 -3.804,0.822l-1.54,-2.57S10.45,0.03 10.346,0.03a0.36,0.36 0,0 0,0.103 0.206zM11.9,5.27c0.4,0 0.822,0.4 0.822,0.822s-0.4,0.822 -0.822,0.822a0.81,0.81 0,0 1,-0.822 -0.822,0.81 0.81,0 0,1 0.822,-0.822zM20.124,5.27c0.4,0 0.822,0.4 0.822,0.822s-0.4,0.822 -0.822,0.822a0.81,0.81 0,0 1,-0.822 -0.822,0.81 0.81,0 0,1 0.822,-0.822zM7.262,10.72v13.16c0,0.617 0.822,1.542 1.44,1.542h2.056v4.523c0,1.13 0.822,2.056 1.85,2.056s1.85,-0.925 1.85,-2.056L14.458,25.42h2.98v4.523c0,1.13 0.822,2.056 1.85,2.056s1.85,-0.925 1.85,-2.056L21.138,25.42h2.056c0.617,0 1.44,-0.822 1.44,-1.542L24.634,10.72z"/>
+                <path fill="#A4C639" d="M4.383,10.412c1.028,0 1.85,0.925 1.85,2.056v7.813c0,1.13 -0.822,2.056 -1.85,2.056s-1.85,-0.925 -1.85,-2.056v-7.813c0,-1.13 0.822,-2.056 1.85,-2.056z"/>
+                <path fill="#A4C639" d="M27.617,10.412c1.028,0 1.85,0.925 1.85,2.056v7.813c0,1.13 -0.822,2.056 -1.85,2.056s-1.85,-0.925 -1.85,-2.056v-7.813c0,-1.13 0.822,-2.056 1.85,-2.056z"/>
+              </svg>
+              <span class="emblem-tooltip">Android</span>
+            </div>
+
+            <!-- GOOGLE CLOUD -->
+            <div class="emblem-large">
+              <svg class="multi-color-svg" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#ea4335" d="M40.728,20.488l2.05,0.035 5.57,-5.57 0.27,-2.36C44.2,8.657 38.367,6.26 31.993,6.26c-11.54,0 -21.28,7.852 -24.163,18.488 0.608,-0.424 1.908,-0.106 1.908,-0.106l11.13,-1.83s0.572,-0.947 0.862,-0.9A13.88,13.88 0,0 1,32 17.375c3.3,0.007 6.34,1.173 8.728,3.102z"/>
+                <path fill="#4285f4" d="M56.17,24.77c-1.293,-4.77 -3.958,-8.982 -7.555,-12.177l-7.887,7.887c3.16,2.55 5.187,6.452 5.187,10.82v1.392c3.837,0 6.954,3.124 6.954,6.954 0,3.837 -3.124,6.954 -6.954,6.954H32.007L30.615,48v8.346l1.392,1.385h13.908A18.11,18.11 0,0 0,64 39.647c-0.007,-6.155 -3.1,-11.6 -7.83,-14.876z"/>
+                <path fill="#34a853" d="M18.085,57.74h13.9V46.6h-13.9a6.89,6.89 0,0 1,-2.862 -0.622l-2.007,0.615 -5.57,5.57 -0.488,1.88a18,18 0,0 0,10.926 3.689z"/>
+                <path fill="#fbbc05" d="M18.085,21.57A18.11,18.11 0,0 0,0 39.654c0,5.873 2.813,11.095 7.166,14.403l8.064,-8.064a6.96,6.96 0,0 1,-4.099 -6.339c0,-3.837 3.124,-6.954 6.954,-6.954 2.82,0 5.244,1.7 6.34,4.1l8.064,-8.064c-3.307,-4.353 -8.53,-7.166 -14.403,-7.166z"/>
+              </svg>
+              <span class="emblem-tooltip">Google Cloud</span>
+            </div>
+
+            <!-- AWS -->
+            <div class="emblem-large">
+              <svg class="multi-color-svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#FF9900" fill-rule="evenodd" d="M15.63,31.388l-7.135,-2.56L8.495,18.373l7.135,2.43zM16.93,31.388l7.135,-2.56L24.065,18.373l-7.135,2.432zM9.23,17.588l7.2,-2.033 6.696,2.16 -6.696,2.273zM7.138,16.788L0,14.22L0,3.75l7.135,2.43zM8.445,16.788l7.135,-2.56L15.58,3.75L8.443,6.192zM0.745,2.988l7.2,-2.043 6.696,2.16 -6.696,2.273zM23.797,16.788l-7.135,-2.56L16.662,3.75l7.135,2.43zM25.097,16.788l7.135,-2.56L32.232,3.75l-7.135,2.43zM17.397,2.988l7.2,-2.033 6.696,2.16 -6.696,2.273z"/>
+              </svg>
+              <span class="emblem-tooltip">AWS</span>
+            </div>
+
+            <!-- DJANGO -->
+            <div class="emblem-large">
+              <svg class="multi-color-svg" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#092e20" d="M27.724,0L38.2,0v48.44c-5.368,1.02 -9.3,1.427 -13.6,1.427 -12.776,0 -19.435,-5.776 -19.435,-16.853 0,-10.67 7.068,-17.6 18.008,-17.6 1.7,0 3,0.135 4.553,0.543zM27.724,24.383c-1.223,-0.407 -2.242,-0.543 -3.533,-0.543 -5.3,0 -8.36,3.262 -8.36,8.97 0,5.573 2.922,8.63 8.3,8.63 1.155,0 2.106,-0.068 3.6,-0.27zM54.837,16.16v24.26c0,8.36 -0.612,12.368 -2.446,15.833 -1.7,3.33 -3.942,5.436 -8.562,7.747l-9.718,-4.62c4.62,-2.174 6.863,-4.076 8.3,-7 1.495,-3 1.97,-6.456 1.97,-15.56L44.381,16.16zM44.372,0.056h10.465v10.737L44.372,10.793z"/>
+              </svg>
+              <span class="emblem-tooltip">Django</span>
+            </div>
+
+            <!-- MYSQL -->
+            <div class="emblem-large">
+              <svg class="multi-color-svg" viewBox="0 0 204.8 105.76" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#00618a" d="M0,96.33h6.75L6.75,69.7l10.44,23.23c1.23,2.8 2.92,3.81 6.23,3.81s4.93,-1 6.16,-3.81L40.03,69.7v26.64h6.75v-26.6c0,-2.6 -1.04,-3.85 -3.18,-4.5 -5.13,-1.6 -8.56,-0.22 -10.12,3.24l-10.25,22.92L13.3,68.48c-1.49,-3.46 -4.99,-4.84 -10.12,-3.24C1.04,65.89 0,67.14 0,69.73v26.6zM52.39,74.65h6.74v14.68c-0.06,0.8 0.26,2.67 3.95,2.73 1.89,0.03 14.55,0 14.67,0v-17.48h6.76c0.03,0 -0.01,23.83 -0.01,23.94 0.04,5.88 -7.29,7.16 -10.67,7.25L52.53,105.76v-4.54l21.34,-0c4.34,-0.46 3.83,-2.62 3.83,-3.34v-1.77h-14.34c-6.67,-0.06 -10.92,-2.97 -10.97,-6.32 -0,-0.3 0.14,-14.99 -0,-15.14z"/>
+                <path fill="#e48e00" d="M89.72,96.33h19.4c2.27,0 4.48,-0.47 6.23,-1.3 2.92,-1.34 4.35,-3.16 4.35,-5.54v-4.93c0,-1.95 -1.62,-3.76 -4.8,-4.97 -1.69,-0.65 -3.76,-1 -5.77,-1h-8.18c-2.72,0 -4.02,-0.82 -4.35,-2.64 -0.06,-0.22 -0.06,-0.4 -0.06,-0.61v-3.07c0,-0.17 0,-0.35 0.06,-0.56 0.32,-1.38 1.04,-1.77 3.44,-2 0.19,0 0.45,-0.04 0.65,-0.04h19.27v-4.5h-18.94c-2.72,0 -4.15,0.17 -5.45,0.56C91.53,67 89.78,69 89.78,72.46v3.94c0,3.03 3.44,5.62 9.21,6.23 0.65,0.04 1.3,0.09 1.95,0.09h7.01c0.26,0 0.52,0 0.71,0.04 2.14,0.17 3.05,0.56 3.7,1.34 0.4,0.4 0.52,0.78 0.52,1.2v3.94c0,0.48 -0.32,1.08 -0.97,1.6 -0.58,0.52 -1.56,0.87 -2.86,0.95 -0.26,0 -0.45,0.04 -0.71,0.04h-18.62v4.5zM161.78,88.51c0,4.63 3.44,7.22 10.38,7.74a29.45,29.45 0,0 0,1.95 0.09h17.58v-4.5h-17.71c-3.96,0 -5.45,-1 -5.45,-3.37v-23.27h-6.75v23.31zM123.99,88.74L123.99,72.71c0,-4.07 2.86,-6.55 8.52,-7.32a12.94,12.94 0,0 1,1.82 -0.13h12.81a13.87,13.87 0,0 1,1.89 0.13c5.66,0.78 8.52,3.25 8.52,7.32L157.54,88.74c0,3.31 -1.22,5.07 -4.01,6.23l6.65,6h-7.83l-5.38,-4.85 -5.41,0.34h-7.22c-1.24,0 -2.54,-0.17 -3.97,-0.56 -4.3,-1.17 -6.37,-3.42 -6.37,-7.15zM131.28,88.34c0,0.22 0.06,0.43 0.13,0.69 0.4,1.86 2.14,2.9 4.8,2.9h6.13l-5.63,-5.08h7.83l4.9,4.43c0.9,-0.48 1.5,-1.22 1.7,-2.17 0.06,-0.22 0.06,-0.43 0.06,-0.65L151.21,73.1c0,-0.17 0,-0.4 -0.06,-0.61 -0.4,-1.73 -2.15,-2.73 -4.75,-2.73L136.22,69.76c-3,0 -4.94,1.3 -4.94,3.34v15.26z"/>
+                <path fill="#00618a" d="M197.62,57.73c-4.15,-0.11 -7.32,0.27 -10.02,1.41 -0.77,0.32 -2,0.33 -2.12,1.3 0.42,0.44 0.49,1.11 0.82,1.65 0.65,1.05 1.74,2.45 2.71,3.18 1.06,0.8 2.16,1.66 3.3,2.36 2.03,1.24 4.3,1.95 6.25,3.18 1.15,0.73 2.3,1.65 3.42,2.48 0.56,0.41 0.93,1.04 1.65,1.3v-0.12c-0.38,-0.48 -0.48,-1.15 -0.82,-1.65l-1.53,-1.53c-1.5,-2 -3.4,-3.74 -5.43,-5.19 -1.61,-1.16 -5.22,-2.72 -5.9,-4.6l-0.12,-0.12c1.14,-0.13 2.48,-0.54 3.54,-0.82 1.77,-0.47 3.36,-0.35 5.19,-0.82l2.48,-0.71v-0.47c-0.93,-0.95 -1.59,-2.21 -2.6,-3.07 -2.64,-2.25 -5.52,-4.49 -8.49,-6.37 -1.65,-1.04 -3.68,-1.71 -5.43,-2.6 -0.59,-0.3 -1.62,-0.45 -2.01,-0.94 -0.92,-1.17 -1.41,-2.65 -2.12,-4 -1.48,-2.85 -2.93,-5.96 -4.25,-8.96 -0.89,-2.05 -1.48,-4.06 -2.59,-5.9 -5.36,-8.8 -11.12,-14.12 -20.05,-19.34 -1.9,-1.11 -4.19,-1.55 -6.61,-2.12l-3.89,-0.24c-0.79,-0.33 -1.62,-1.3 -2.36,-1.77 -2.96,-1.87 -10.55,-5.93 -12.74,-0.6 -1.38,3.37 2.07,6.66 3.3,8.37 0.87,1.2 1.98,2.54 2.59,3.89 0.41,0.89 0.48,1.77 0.83,2.71 0.86,2.3 1.6,4.82 2.71,6.96 0.56,1.08 1.18,2.22 1.89,3.18 0.44,0.59 1.18,0.85 1.3,1.77 -0.73,1.02 -0.77,2.6 -1.18,3.89 -1.84,5.81 -1.15,13.03 1.53,17.34 0.82,1.32 2.76,4.15 5.43,3.07 2.33,-0.95 1.8,-3.89 2.48,-6.49 0.15,-0.59 0.06,-1.02 0.35,-1.41v0.12l2.12,4.24c1.57,2.53 4.36,5.18 6.72,6.96 1.23,0.93 2.2,2.53 3.77,3.07v-0.12h-0.12c-0.31,-0.48 -0.79,-0.68 -1.18,-1.06 -0.92,-0.9 -1.95,-2.03 -2.71,-3.07 -2.15,-2.92 -4.05,-6.11 -5.78,-9.44 -0.83,-1.59 -1.54,-3.34 -2.24,-4.95 -0.27,-0.62 -0.26,-1.56 -0.82,-1.89 -0.76,1.18 -1.89,2.14 -2.48,3.54 -0.94,2.23 -1.07,4.96 -1.41,7.78 -0.21,0.07 -0.12,0.02 -0.24,0.12 -1.64,-0.4 -2.22,-2.09 -2.83,-3.54 -1.54,-3.67 -1.83,-9.58 -0.47,-13.8 0.35,-1.09 1.94,-4.53 1.3,-5.54 -0.31,-1.01 -1.32,-1.6 -1.89,-2.36 -0.7,-0.95 -1.4,-2.2 -1.89,-3.3 -1.26,-2.86 -1.85,-6.07 -3.18,-8.96 -0.64,-1.38 -1.71,-2.78 -2.59,-4 -0.98,-1.36 -2.07,-2.36 -2.83,-4 -0.27,-0.58 -0.64,-1.52 -0.24,-2.12a0.93,0.93 0,0 1,0.71 -0.71c0.68,-0.53 2.59,0.17 3.3,0.47 1.89,0.79 3.47,1.53 5.07,2.6 0.77,0.5 1.55,1.5 2.48,1.77h1.06c1.66,0.38 3.52,0.12 5.07,0.59 2.74,0.83 5.2,2.13 7.43,3.54 6.8,4.29 12.35,10.4 16.16,17.7 0.61,1.17 0.88,2.29 1.41,3.54 1.09,2.5 2.46,5.09 3.54,7.55 1.08,2.45 2.13,4.92 3.66,6.96 0.8,1.07 3.9,1.65 5.31,2.24 0.99,0.42 2.6,0.85 3.54,1.41 1.78,1.08 3.52,2.36 5.19,3.54 0.84,0.59 3.41,1.88 3.54,2.95z"/>
+                <path fill="#e48e00" d="M194.85,91.71c0,2.97 2.35,4.97 4.97,4.97s4.97,-2 4.97,-4.97 -2.35,-4.97 -4.97,-4.97 -4.97,2 -4.97,4.97zM203.68,91.71c0,2.25 -1.72,3.94 -3.86,3.94 -2.16,0 -3.86,-1.68 -3.86,-3.94s1.7,-3.94 3.86,-3.94c2.13,0 3.86,1.68 3.86,3.94zM201.16,94.55h1.11l-1.63,-2.49c0.88,-0.09 1.54,-0.52 1.54,-1.55 0,-1.15 -0.73,-1.63 -2.13,-1.63h-2.21v5.68h0.95v-2.45h0.89l1.49,2.45zM198.79,91.3v-1.63h1.1c0.57,0 1.26,0.11 1.26,0.77 0,0.8 -0.62,0.86 -1.34,0.86h-1.02z"/>
+              </svg>
+              <span class="emblem-tooltip">MySQL</span>
+            </div>
+
+            <!-- DOCKER -->
+            <div class="emblem-large">
+              <svg class="multi-color-svg" viewBox="0 0 256 215" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#364548" fill-rule="evenodd" d="M38.62,173.98v-16.36c0,-2.15 1.34,-3.88 3.57,-3.88h0.62c2.22,0 3.56,1.73 3.56,3.88v34.45c0,8.4 -4.15,15.08 -11.38,19.34a21.37,21.37 0,0 1,-10.94 2.98h-1.54c-8.4,0 -15.08,-4.15 -19.34,-11.38a21.31,21.31 0,0 1,-2.98 -10.95v-1.53c0,-8.4 4.15,-15.08 11.38,-19.35a21.3,21.3 0,0 1,10.95 -2.98h1.54c5.69,0 10.5,2.2 14.58,5.78zM7.92,191.3c0,6.07 2.94,10.63 8.26,13.54 2.15,1.18 4.48,1.81 6.94,1.81 5.96,0 10.37,-2.8 13.42,-7.86 1.42,-2.35 2.08,-4.92 2.08,-7.65 0,-5.26 -2.5,-9.36 -6.73,-12.41 -2.57,-1.85 -5.46,-2.78 -8.62,-2.78 -6.49,0 -11.16,3.28 -13.97,9.11 -0.95,1.97 -1.38,4.06 -1.38,6.24zM73.25,168.2h1.07c8.98,0 15.81,4.36 20.13,12.19 1.73,3.13 2.66,6.56 2.66,10.14v1.53c0,8.4 -4.14,15.09 -11.39,19.34 -3.35,1.97 -7.06,2.98 -10.94,2.98h-1.53c-8.4,0 -15.08,-4.15 -19.34,-11.38a21.32,21.32 0,0 1,-2.99 -10.95v-1.53c0,-8.4 4.17,-15.06 11.38,-19.35a21.2,21.2 0,0 1,10.95 -2.99zM58.67,191.3c0,5.9 2.9,10.22 7.86,13.27 2.34,1.43 4.9,2.08 7.64,2.08 5.82,0 10.12,-2.95 13.12,-7.86 1.43,-2.34 2.07,-4.91 2.07,-7.64 0,-5.48 -2.64,-9.66 -7.15,-12.69a14.41,14.41 0,0 0,-8.2 -2.5c-6.49,0 -11.16,3.28 -13.97,9.11 -0.95,1.97 -1.38,4.06 -1.38,6.24zM129.32,176.57c-1.17,-0.55 -3.36,-0.73 -4.62,-0.78 -6.47,-0.24 -11.16,3.4 -13.91,9.11 -0.95,1.97 -1.38,4.05 -1.38,6.24 0,6.64 3.48,11.28 9.4,14.12 2.16,1.03 4.96,1.23 7.32,1.23 2.08,0 5.02,-1.27 6.87,-2.15l0.32,-0.15h1.43l0.16,0.03c1.76,0.37 3.09,1.48 3.09,3.38v0.77c0,4.72 -8.62,5.8 -11.91,6.03 -11.6,0.8 -20.29,-5.57 -23.6,-16.65 -0.57,-1.92 -0.83,-3.83 -0.83,-5.84v-1.53c0,-8.4 4.17,-15.06 11.38,-19.34a21.12,21.12 0,0 1,10.95 -3h1.54c4.13,0 7.93,1.17 11.34,3.5l0.28,0.19 0.18,0.29c0.37,0.6 0.69,1.32 0.69,2.04v0.77c0,1.98 -1.48,3.04 -3.27,3.39l-0.15,0.03h-0.46c-1.16,0 -3.79,-1.2 -4.82,-1.68zM154.46,181.82l9.09,-8.99c0.85,-0.83 4.07,-4.33 5.34,-4.33h1.39l0.16,0.03c1.77,0.37 3.09,1.49 3.09,3.39v0.77c0,1.3 -1.52,2.8 -2.36,3.7 -1.78,1.89 -3.65,3.71 -5.48,5.56l-9.36,9.5 12.06,12.15a313.3,313.3 0,0 1,3.3 3.4c0.38,0.41 0.95,0.9 1.28,1.47 0.35,0.53 0.56,1.12 0.56,1.75v0.8l-0.05,0.19c-0.44,1.77 -1.56,3.19 -3.52,3.19h-0.62c-1.28,0 -2.73,-1.45 -3.61,-2.28 -1.8,-1.71 -3.56,-3.5 -5.33,-5.24l-5.95,-5.84v9.33c0,2.15 -1.35,3.88 -3.57,3.88h-0.6c-2.23,0 -3.57,-1.73 -3.57,-3.88v-52.6c0,-2.15 1.35,-3.87 3.57,-3.87h0.6c2.22,0 3.57,1.72 3.57,3.87v24.05zM251.04,168.51h0.77c2.32,0 3.88,1.57 3.88,3.88 0,3.21 -3.07,4.03 -5.72,4.03 -3.48,0 -6.8,2.11 -9.2,4.47 -3,2.95 -4.3,6.73 -4.3,10.88v18.76c0,2.15 -1.34,3.88 -3.57,3.88h-0.61c-2.23,0 -3.57,-1.73 -3.57,-3.88v-19.84c0,-7.62 3.71,-13.84 9.9,-18.2 3.7,-2.61 7.92,-3.98 12.44,-3.98zM195.96,205.68c2.82,0.99 6.03,0.84 8.93,0.34 1.48,-0.63 5.26,-2.28 6.66,-2.04l0.22,0.04 0.2,0.1c0.85,0.41 1.66,1 2.1,1.86 1.01,2.03 0.53,4.07 -1.47,5.22l-0.66,0.38c-7.35,4.24 -15.17,3.65 -22.5,-0.31 -3.5,-1.89 -6.18,-4.7 -8.16,-8.13l-0.46,-0.8c-4.72,-8.17 -4.08,-16.77 1.24,-24.54 1.84,-2.69 4.24,-4.76 7.05,-6.38l1.06,-0.61c6.92,-4 14.34,-3.72 21.45,-0.22 3.82,1.89 6.92,4.7 9.05,8.39l0.38,0.67c1.55,2.69 -0.46,5.03 -2.53,6.63 -2.41,1.86 -4.84,4.1 -7.14,6.08l-15.41,13.33zM189.31,201.01l23.3,-20.04c-1.56,-1.97 -4.17,-3.38 -6.38,-4.23 -4.47,-1.7 -8.88,-1.13 -12.98,1.24 -5.36,3.1 -7.65,8.03 -7.45,14.17 0.08,2.42 0.73,4.75 2.01,6.8 0.45,0.73 0.96,1.41 1.5,2.06zM147.49,45.73h22.87v23.38h11.56c5.34,0 10.83,-0.95 15.89,-2.66 2.48,-0.84 5.27,-2.02 7.72,-3.5 -3.23,-4.21 -4.88,-9.53 -5.36,-14.78 -0.66,-7.14 0.78,-16.42 5.61,-22l2.4,-2.78 2.86,2.3c7.2,5.79 13.28,13.9 14.35,23.12 8.68,-2.55 18.88,-1.95 26.53,2.47l3.14,1.81 -1.65,3.23c-6.47,12.64 -20,16.56 -33.23,15.86 -19.8,49.3 -62.9,72.65 -115.16,72.65 -27,0 -51.77,-10.09 -65.88,-34.05l-0.23,-0.4 -2.06,-4.18c-4.77,-10.54 -6.35,-22.09 -5.28,-33.64l0.32,-3.46L51.45,69.1L51.45,45.73h22.86L74.32,22.87h45.73L120.05,0h27.44v45.73"/>
+                <path fill="#22a0c8" fill-rule="evenodd" d="M221.57,54.38c1.53,-11.92 -7.38,-21.27 -12.91,-25.72 -6.37,7.37 -7.36,26.68 2.63,34.81 -5.58,4.96 -17.34,9.45 -29.38,9.45H35.37c-1.17,12.57 1.04,24.14 6.07,34.04l1.67,3.05a56.54,56.54 0,0 0,3.45 5.18c6.03,0.39 11.58,0.52 16.66,0.41h0c9.99,-0.22 18.14,-1.4 24.31,-3.54a1.76,1.76 0,0 1,1.15 3.33c-0.82,0.29 -1.68,0.55 -2.56,0.81h-0c-4.86,1.4 -10.08,2.32 -16.81,2.74 0.4,0.01 -0.42,0.06 -0.42,0.06 -0.23,0.01 -0.52,0.05 -0.75,0.06 -2.65,0.15 -5.51,0.18 -8.43,0.18 -3.2,0 -6.34,-0.06 -9.86,-0.24l-0.1,0.06c12.2,13.72 31.3,21.95 55.23,21.95 50.65,0 93.61,-22.45 112.63,-72.86 13.5,1.38 26.47,-2.06 32.37,-13.57 -9.4,-5.42 -21.48,-3.69 -28.44,-0.2"/>
+                <path fill="#37b1d9" fill-rule="evenodd" d="M221.57,54.38c1.53,-11.92 -7.38,-21.27 -12.91,-25.72 -6.37,7.37 -7.36,26.68 2.63,34.81 -5.58,4.96 -17.34,9.45 -29.38,9.45H44.05c-0.6,19.25 6.54,33.85 19.18,42.69h0c9.99,-0.22 18.14,-1.4 24.31,-3.54a1.76,1.76 0,0 1,1.15 3.33c-0.82,0.29 -1.68,0.55 -2.56,0.81h-0c-4.86,1.4 -10.53,2.44 -17.25,2.86 -0,0 -0.16,-0.16 -0.17,-0.16 17.24,8.84 42.23,8.8 70.89,-2.2 32.13,-12.34 62.03,-35.86 82.9,-62.76a25.23,25.23 0,0 0,-0.92 0.44"/>
+                <path fill="#1b81a5" fill-rule="evenodd" d="M35.65,88.19c0.9,6.73 2.88,13.03 5.8,18.78l1.67,3.05a56.43,56.43 0,0 0,3.45 5.18c6.03,0.39 11.58,0.52 16.66,0.41 9.99,-0.22 18.14,-1.4 24.31,-3.54a1.76,1.76 0,0 1,1.15 3.33c-0.82,0.29 -1.68,0.55 -2.56,0.81h-0c-4.86,1.4 -10.5,2.38 -17.22,2.8 -0.23,0.01 -0.63,0.02 -0.87,0.03 -2.65,0.15 -5.47,0.24 -8.4,0.24a192.82,192.82 0,0 1,-9.98 -0.24C61.86,132.75 81.08,141 105.01,141c43.36,0 81.08,-16.46 102.98,-52.82H35.65"/>
+                <path fill="#1d91b4" fill-rule="evenodd" d="M45.37,88.19c2.59,11.82 8.82,21.1 17.86,27.42 9.99,-0.22 18.14,-1.4 24.31,-3.54a1.76,1.76 0,0 1,1.15 3.33c-0.82,0.29 -1.68,0.55 -2.56,0.81h-0c-4.86,1.4 -10.61,2.38 -17.34,2.8 17.24,8.84 42.16,8.71 70.8,-2.29 17.33,-6.66 34.02,-16.57 48.98,-28.51H45.37"/>
+                <path fill="#23a3c2" fill-rule="evenodd" d="M55.26,49.54h19.82L75.08,69.36L55.26,69.36L55.26,49.54zM56.91,51.19h1.56L58.47,67.7L56.9,67.7L56.9,51.19zM59.85,51.19h1.63L61.48,67.7L59.85,67.7L59.85,51.19zM62.85,51.19h1.63L64.48,67.7h-1.63L62.85,51.19zM65.86,51.19h1.63L67.48,67.7h-1.63L65.86,51.19zM68.86,51.19h1.63L70.48,67.7L68.86,67.7L68.86,51.19zM71.86,51.19h1.57L73.43,67.7L71.86,67.7L71.86,51.19zM78.12,26.68h19.82v19.82h-19.82L78.12,26.68zM79.78,28.33h1.56v16.51h-1.56L79.78,28.33zM82.72,28.33h1.63v16.51L82.72,44.84L82.72,28.33zM85.72,28.33h1.63v16.51L85.72,44.84L85.72,28.33zM88.72,28.33h1.63v16.51h-1.63L88.72,28.33zM91.72,28.33h1.63v16.51h-1.63L91.72,28.33zM94.73,28.33h1.57v16.51h-1.57L94.73,28.33z"/>
+                <path fill="#34bbde" fill-rule="evenodd" d="M78.13,49.54h19.82L97.95,69.36h-19.82L78.13,49.54zM79.78,51.19h1.56L81.34,67.7h-1.56L79.78,51.19zM82.72,51.19h1.63L84.34,67.7L82.72,67.7L82.72,51.19zM85.72,51.19h1.63L87.35,67.7L85.72,67.7L85.72,51.19zM88.72,51.19h1.63L90.35,67.7h-1.63L88.72,51.19zM91.73,51.19h1.63L93.35,67.7h-1.63L91.73,51.19zM94.73,51.19h1.57L96.29,67.7h-1.57L94.73,51.19z"/>
+                <path fill="#23a3c2" fill-rule="evenodd" d="M100.99,49.54h19.82L120.81,69.36h-19.82L100.99,49.54zM102.64,51.19h1.56L104.21,67.7h-1.56L102.64,51.19zM105.58,51.19h1.63L107.21,67.7h-1.63L105.58,51.19zM108.59,51.19h1.63L110.21,67.7h-1.63L108.59,51.19zM111.59,51.19h1.63L113.21,67.7L111.6,67.7L111.6,51.19zM114.59,51.19h1.63L116.22,67.7h-1.63L114.59,51.19zM117.59,51.19h1.56L119.16,67.7h-1.56L117.59,51.19z"/>
+                <path fill="#34bbde" fill-rule="evenodd" d="M100.99,26.68h19.82v19.82h-19.82L100.99,26.68zM102.64,28.33h1.56v16.51h-1.56L102.64,28.33zM105.58,28.33h1.63v16.51h-1.63L105.58,28.33zM108.59,28.33h1.63v16.51h-1.63L108.59,28.33zM111.59,28.33h1.63v16.51L111.6,44.84L111.6,28.33zM114.59,28.33h1.63v16.51h-1.63L114.59,28.33zM117.59,28.33h1.56v16.51h-1.56L117.59,28.33zM123.86,49.54h19.82L143.68,69.36L123.86,69.36L123.86,49.54zM125.51,51.19h1.56L127.07,67.7L125.5,67.7L125.5,51.19zM128.45,51.19h1.63L130.08,67.7h-1.63L128.45,51.19zM131.45,51.19h1.63L133.08,67.7h-1.63L131.45,51.19zM134.46,51.19h1.63L136.08,67.7h-1.63L134.46,51.19zM137.46,51.19h1.63L139.09,67.7h-1.63L137.46,51.19zM140.46,51.19h1.56L142.03,67.7h-1.56L140.46,51.19z"/>
+                <path fill="#23a3c2" fill-rule="evenodd" d="M123.86,26.68h19.82v19.82L123.86,46.49L123.86,26.68zM125.51,28.33h1.56v16.51h-1.56L125.51,28.33zM128.45,28.33h1.63v16.51h-1.63L128.45,28.33zM131.45,28.33h1.63v16.51h-1.63L131.45,28.33zM134.46,28.33h1.63v16.51h-1.63L134.46,28.33zM137.46,28.33h1.63v16.51h-1.63L137.46,28.33zM140.46,28.33h1.56v16.51h-1.56L140.46,28.33z"/>
+                <path fill="#34bbde" fill-rule="evenodd" d="M123.86,3.8h19.82v19.82L123.86,23.62L123.86,3.8zM125.51,5.45h1.56v16.52h-1.56L125.51,5.46zM128.45,5.45h1.63v16.52h-1.63L128.45,5.46zM131.45,5.45h1.63v16.52h-1.63L131.45,5.46zM134.46,5.45h1.63v16.52h-1.63L134.46,5.46zM137.46,5.45h1.63v16.52h-1.63L137.46,5.46zM140.46,5.45h1.56v16.52h-1.56L140.46,5.46z"/>
+                <path fill="#23a3c2" fill-rule="evenodd" d="M146.73,49.54h19.82L166.54,69.36h-19.82L146.73,49.54zM148.38,51.19h1.57L149.94,67.7h-1.56L148.38,51.19zM151.32,51.19h1.63L152.94,67.7h-1.63L151.32,51.19zM154.32,51.19h1.63L155.95,67.7h-1.63L154.32,51.19zM157.32,51.19h1.63L158.95,67.7h-1.63L157.32,51.19zM160.32,51.19h1.63L161.95,67.7h-1.63L160.32,51.19zM163.33,51.19h1.56L164.89,67.7h-1.56L163.33,51.19z"/>
+                <path fill="#d3ecec" fill-rule="evenodd" d="M96.7,101.49a5.47,5.47 0,1 1,-0 10.94,5.47 5.47,0 0,1 0,-10.94"/>
+                <path fill="#364548" fill-rule="evenodd" d="M96.7,103.04a3.9,3.9 0,0 1,1.42 0.26,1.6 1.6,0 0,0 0.8,2.98c0.61,0 1.13,-0.34 1.4,-0.83a3.91,3.91 0,1 1,-3.62 -2.41M0,90.16h254.33c-5.54,-1.4 -17.52,-3.3 -15.54,-10.56 -10.07,11.65 -34.35,8.18 -40.48,2.43 -6.82,9.9 -46.55,6.14 -49.33,-1.58 -8.56,10.04 -35.07,10.04 -43.62,0 -2.77,7.7 -42.5,11.47 -49.33,1.58 -6.13,5.75 -30.4,9.22 -40.48,-2.43C17.52,86.86 5.54,88.76 0,90.16"/>
+                <path fill="#bdd9d7" fill-rule="evenodd" d="M111.24,140.9c-13.54,-6.43 -20.97,-15.16 -25.11,-24.69 -5.03,1.43 -11.07,2.35 -18.1,2.75 -2.65,0.15 -5.43,0.22 -8.35,0.22 -3.37,0 -6.92,-0.1 -10.64,-0.3 12.42,12.4 27.69,21.96 55.98,22.14 2.09,0 4.16,-0.04 6.22,-0.12"/>
+                <path fill="#d3ecec" fill-rule="evenodd" d="M91.16,124.99c-1.87,-2.54 -3.7,-5.74 -5.03,-8.8 -5.03,1.44 -11.08,2.36 -18.1,2.75 4.83,2.62 11.73,5.05 23.13,6.05"/>
+              </svg>
+              <span class="emblem-tooltip">Docker</span>
+            </div>
+
+            <!-- KUBERNETEES -->
+            <div class="emblem-large">
+              <svg class="multi-color-svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#326ce5" d="M15.9,0.476a2.14,2.14 0,0 0,-0.823 0.218L3.932,6.01c-0.582,0.277 -1.005,0.804 -1.15,1.432L0.054,19.373c-0.13,0.56 -0.025,1.147 0.3,1.627q0.057,0.087 0.12,0.168l7.7,9.574c0.407,0.5 1.018,0.787 1.662,0.784h12.35c0.646,0.001 1.258,-0.3 1.664,-0.793l7.696,-9.576c0.404,-0.5 0.555,-1.16 0.4,-1.786L29.2,7.43c-0.145,-0.628 -0.57,-1.155 -1.15,-1.432L16.923,0.695A2.14,2.14 0,0 0,15.89 0.476z"/>
+                <path fill="#ffffff" d="M16.002,4.542c-0.384,0.027 -0.675,0.356 -0.655,0.74v0.188c0.018,0.213 0.05,0.424 0.092,0.633a6.22,6.22 0,0 1,0.066 1.21c-0.038,0.133 -0.114,0.253 -0.218,0.345l-0.015,0.282c-0.405,0.034 -0.807,0.096 -1.203,0.186 -1.666,0.376 -3.183,1.24 -4.354,2.485l-0.24,-0.17c-0.132,0.04 -0.274,0.025 -0.395,-0.04a6.22,6.22 0,0 1,-0.897 -0.81,5.55 5.55,0 0,0 -0.437,-0.465l-0.148,-0.118c-0.132,-0.106 -0.294,-0.167 -0.463,-0.175a0.64,0.64 0,0 0,-0.531 0.236c-0.226,0.317 -0.152,0.756 0.164,0.983l0.138,0.11a5.55,5.55 0,0 0,0.552 0.323c0.354,0.197 0.688,0.428 0.998,0.7a0.74,0.74 0,0 1,0.133 0.384l0.218,0.2c-1.177,1.766 -1.66,3.905 -1.358,6.006l-0.28,0.08c-0.073,0.116 -0.17,0.215 -0.286,0.288a6.22,6.22 0,0 1,-1.194 0.197,5.57 5.57,0 0,0 -0.64,0.05l-0.177,0.04h-0.02a0.67,0.67 0,0 0,-0.387 1.132,0.67 0.67,0 0,0 0.684,0.165h0.013l0.18,-0.02c0.203,-0.06 0.403,-0.134 0.598,-0.218 0.375,-0.15 0.764,-0.265 1.162,-0.34 0.138,0.008 0.27,0.055 0.382,0.135l0.3,-0.05c0.65,2.017 2.016,3.726 3.84,4.803l-0.122,0.255c0.056,0.117 0.077,0.247 0.06,0.376 -0.165,0.382 -0.367,0.748 -0.603,1.092a5.58,5.58 0,0 0,-0.358 0.533l-0.085,0.18a0.67,0.67 0,0 0,0.65 1.001,0.67 0.67,0 0,0 0.553,-0.432l0.083,-0.17c0.076,-0.2 0.14,-0.404 0.192,-0.61 0.177,-0.437 0.273,-0.906 0.515,-1.196a0.54,0.54 0,0 1,0.286 -0.14l0.15,-0.273a8.62,8.62 0,0 0,6.146 0.015l0.133,0.255c0.136,0.02 0.258,0.095 0.34,0.205 0.188,0.358 0.34,0.733 0.456,1.12a5.57,5.57 0,0 0,0.194 0.611l0.083,0.17a0.67,0.67 0,0 0,1.187 0.131,0.67 0.67,0 0,0 0.016,-0.701l-0.087,-0.18a5.55,5.55 0,0 0,-0.358 -0.531c-0.23,-0.332 -0.428,-0.686 -0.6,-1.057a0.52,0.52 0,0 1,0.068 -0.4,2.29 2.29,0 0,1 -0.111,-0.269c1.82,-1.085 3.18,-2.8 3.823,-4.82l0.284,0.05c0.102,-0.093 0.236,-0.142 0.373,-0.138 0.397,0.076 0.786,0.2 1.162,0.34 0.195,0.09 0.395,0.166 0.598,0.23 0.048,0.013 0.118,0.024 0.172,0.037h0.013a0.67,0.67 0,0 0,0.841 -0.851,0.67 0.67,0 0,0 -0.544,-0.446l-0.194,-0.046a5.57,5.57 0,0 0,-0.64 -0.05c-0.404,-0.026 -0.804,-0.092 -1.194,-0.197 -0.12,-0.067 -0.22,-0.167 -0.288,-0.288l-0.27,-0.08a8.65,8.65 0,0 0,-1.386 -5.993l0.236,-0.218c-0.01,-0.137 0.035,-0.273 0.124,-0.378 0.307,-0.264 0.64,-0.497 0.99,-0.696a5.57,5.57 0,0 0,0.552 -0.323l0.146,-0.118a0.67,0.67 0,0 0,-0.133 -1.202,0.67 0.67,0 0,0 -0.696,0.161l-0.148,0.118a5.57,5.57 0,0 0,-0.437 0.465c-0.264,0.302 -0.556,0.577 -0.873,0.823a0.74,0.74 0,0 1,-0.404 0.044l-0.253,0.18c-1.46,-1.53 -3.427,-2.48 -5.535,-2.67 0,-0.1 -0.013,-0.25 -0.015,-0.297 -0.113,-0.078 -0.192,-0.197 -0.218,-0.332a6.23,6.23 0,0 1,0.076 -1.207c0.043,-0.21 0.073,-0.42 0.092,-0.633v-0.2c0.02,-0.384 -0.27,-0.713 -0.655,-0.74zM15.168,9.708l-0.2,3.493h-0.015c-0.01,0.216 -0.137,0.4 -0.332,0.504s-0.426,0.073 -0.6,-0.054l-2.865,-2.03a6.86,6.86 0,0 1,3.303 -1.799c0.234,-0.05 0.47,-0.088 0.707,-0.114zM16.836,9.708c1.505,0.187 2.906,0.863 3.99,1.924l-2.838,2.017c-0.175,0.14 -0.415,0.168 -0.618,0.072s-0.333,-0.3 -0.336,-0.524zM10.116,12.935l2.62,2.338v0.015c0.163,0.142 0.234,0.363 0.186,0.574s-0.21,0.378 -0.417,0.435v0.01l-3.362,0.967a6.86,6.86 0,0 1,0.974 -4.34zM21.869,12.935c0.796,1.295 1.148,2.814 1.002,4.327l-3.367,-0.97v-0.013c-0.21,-0.057 -0.37,-0.224 -0.417,-0.435s0.023,-0.43 0.186,-0.574l2.6,-2.327zM15.465,15.455h1.072l0.655,0.832 -0.238,1.04 -0.963,0.463 -0.965,-0.463 -0.227,-1.04zM18.899,18.293c0.045,-0.005 0.1,-0.005 0.135,0l3.467,0.585c-0.5,1.44 -1.487,2.67 -2.775,3.493l-1.34,-3.244a0.59,0.59 0,0 1,0.509 -0.819zM13.076,18.308c0.196,0.003 0.377,0.104 0.484,0.268s0.124,0.37 0.047,0.55v0.013l-1.332,3.218C11,21.54 10.032,20.325 9.517,18.9l3.437,-0.583c0.038,-0.004 0.077,-0.004 0.116,0zM15.98,19.708a0.59,0.59 0,0 1,0.537 0.308h0.013l1.694,3.057 -0.677,0.2c-1.246,0.285 -2.547,0.218 -3.758,-0.194l1.7,-3.057c0.103,-0.18 0.293,-0.29 0.5,-0.295z" />
+              </svg>
+              <span class="emblem-tooltip">Kubernetes</span>
+            </div>
+
+            <!-- TENSORFLOW -->
+            <div class="emblem-large">
+              <svg class="multi-color-svg" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#f6bd3a" d="M27.733,34.453l8.64,-5.013 8.533,5.013 -8.533,4.907 -8.64,-4.8zM1.813,19.627L36.373,0 62.08,14.613 53.547,29.44l-17.173,-9.813 -25.92,14.72z" />
+                <path fill="#eb8c23" d="M27.733,54.08v-9.813l8.533,-4.907 8.64,-4.907v9.813l-8.533,4.907v9.813L27.733,64zM27.733,34.453l-8.64,-4.907 -8.64,4.8v-9.813l25.92,-14.72L36.373,29.44zM53.44,24.533v-4.907l8.64,-5.013 0.107,9.813 -8.64,5.013z" />
+                <path fill="#e35a2b" d="M19.093,58.773L19.093,29.547l8.533,-4.8 0.107,9.707 8.64,4.8v9.92l-8.64,-4.587L27.733,64zM6.08,31.787l-4.267,-2.56v-9.6l8.64,4.907v9.813l-4.373,-2.56zM36.373,19.627L36.373,9.813l17.067,9.813 0.107,9.813 -17.173,-9.813z" />
+              </svg>
+              <span class="emblem-tooltip">TensorFlow</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section id="why" class="why">
+      <div class="container">
+
+        <header class="section-header" data-reveal>
+          <p class="section-eyebrow">The <span data-brand-name></span> Standard</p>
+          <h2 class="section-title">
+            Built for <em>outcomes</em>,<br>not vanity metrics
+          </h2>
+        </header>
+
+        <div class="why-stack">
+          <div class="why-row" data-reveal>
+            <div class="row-content">
+              <div class="row-main">
+                <span class="row-index">01</span>
+                <h3 class="row-title">Scalable solutions</h3>
+              </div>
+
+              <div class="row-icon-container">
+                <div class="row-icon">
+                  <svg viewBox="0 0 24 24"><path d="M4 14l4 4L20 6"/></svg>
+                </div>
+                <div class="icon-line-bridge"></div>
+              </div>
+
+              <div class="row-details">
+                <p>Architecture that grows with your user base designed upfront for success.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-row" data-reveal>
+            <div class="row-content">
+              <div class="row-main">
+                <span class="row-index">02</span>
+                <h3 class="row-title">Clean architecture</h3>
+              </div>
+
+              <div class="row-icon-container">
+                <div class="row-icon">
+                  <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                </div>
+                <div class="icon-line-bridge"></div>
+              </div>
+              <div class="row-details">
+                <p>Readable boundaries, modularity, and comprehensive documentation your team can actually extend.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-row" data-reveal>
+            <div class="row-content">
+              <div class="row-main">
+                <span class="row-index">03</span>
+                <h3 class="row-title">Fast delivery</h3>
+              </div>
+
+              <div class="row-icon-container">
+                <div class="row-icon">
+                  <svg viewBox="0 0 24 24"><path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z"/></svg>
+                </div>
+                <div class="icon-line-bridge"></div>
+              </div>
+              <div class="row-details">
+                <p>Incremental releases and tight feedback loops that keep product momentum high and scope honest.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-row" data-reveal>
+            <div class="row-content">
+              <div class="row-main">
+                <span class="row-index">04</span>
+                <h3 class="row-title">Strong support</h3>
+              </div>
+              <div class="row-icon-container">
+                <div class="row-icon">
+                  <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <div class="icon-line-bridge"></div>
+              </div>
+              <div class="row-details">
+                <p>Post launch care, proactive monitoring, and clear SLAs to ensure stability after the first deploy.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-row" data-reveal>
+            <div class="row-content">
+              <div class="row-main">
+                <span class="row-index">05</span>
+                <h3 class="row-title">Strategic Partnership</h3>
+              </div>
+              <div class="row-icon-container">
+                <div class="row-icon">
+                  <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                </div>
+                <div class="icon-line-bridge"></div>
+              </div>
+              <div class="row-details">
+                <p>We challenge assumptions to ensure every line of code serves a measurable business outcome.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-row" data-reveal>
+            <div class="row-content">
+              <div class="row-main">
+                <span class="row-index">06</span>
+                <h3 class="row-title">Edge Performance</h3>
+              </div>
+              <div class="row-icon-container">
+                <div class="row-icon">
+                  <svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                </div>
+                <div class="icon-line-bridge"></div>
+              </div>
+              <div class="row-details">
+                <p>Optimization at every layer from database indexing to lightning fast global CDN caching.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="contact-hero" data-reveal>
+          <p class="section-eyebrow">Let's work together</p>
+          <h2 id="cta-heading" class="contact-title">Let's Build Something<br><em>Great Together</em></h2>
+          <p class="contact-sub">Tell us about your product, timeline, and constraints, we'll respond with a clear path forward.</p>
+          <button type="button" class="btn btn-primary btn-lg" id="btn-request-service">Request a Service</button>
+        </div>
+
+        <div class="form-wrapper" id="service-form-wrapper" hidden>
+          <div class="form-wrapper-kinetic" id="service-form-wrapper" hidden>
+            <div class="kinetic-container">
+              
+              <div class="kinetic-info">
+                <div class="info-glass">
+                  <span class="protocol-id">PRTCL_SCLNCR_26_IN</span>
+                  <h3 class="kinetic-title">Secure a<br><em>Consultation</em></h3>
+                  <p class="kinetic-subtitle">Connect with <span data-brand-name></span>'s lead architects for high-stakes projects.</p>
+                  
+                  <div class="status-badge">
+                    <div class="pulse-dot"></div>
+                    Engineering Intake Active
+                  </div>
+                </div>
+              </div>
+
+              <div class="kinetic-form-pane">
+                <form class="service-form-kinetic" method="POST" action="api/service-request.php">
+
+                  <div class="input-stack">
+                    
+                    <!-- NAME -->
+                    <div class="glass-field">
+                      <input type="text" id="name" name="name" placeholder="Full Name" required />
+                      <div class="field-glow"></div>
+                    </div>
+
+                    <!-- EMAIL -->
+                    <div class="glass-field">
+                      <input type="email" id="email" name="email" placeholder="Email Address" required />
+                      <div class="field-glow"></div>
+                    </div>
+
+                    <!-- PHONE + SERVICE -->
+                    <div class="glass-row">
+                      <div class="glass-field">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone" required />
+                      </div>
+
+                      <div class="glass-field">
+                        <select id="service_type" name="service_type" required>
+                          <option value="" disabled selected>Discipline</option>
+                          <option value="Web Development">Web Ecosystems</option>
+                          <option value="Custom Software">Custom Software</option>
+                          <option value="Mobile App">Mobile Apps</option>
+                          <option value="Cloud">Cloud Architecture</option>
+                          <option value="Embedded">Embedded Systems</option>
+                          <option value="Cybersecurity">Cybersecurity</option>
+                          <option value="AI/ML">AI / ML</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <!-- DESCRIPTION -->
+                    <div class="glass-field">
+                      <textarea id="description" name="description" rows="2" placeholder="Project Briefing..." required></textarea>
+                    </div>
+
+                  </div>
+
+                  <!-- SUBMIT BUTTON -->
+                  <button type="submit" class="kinetic-submit">
+                    <span class="btn-txt">Transmit Request</span>
+                    <span class="btn-icon">→</span>
+                    <div class="btn-shimmer"></div>
+                  </button>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-cards-grid" data-reveal>
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <h4>Email</h4>
+            <p><a href="mailto:contact@scalancer.com">contact@scalancer.com</a></p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.21 12.8 19.79 19.79 0 0 1 1.14 4.13 2 2 0 0 1 3.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <h4>Phone</h4>
+            <p><a href="tel:+918921967197">+91 89219 67197</a></p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <h4>LinkedIn</h4>
+            <a href="https://linkedin.com/company/scalancer" target="_blank">scalancer</a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h4>Location</h4>
+            <p>Bengaluru, Karnataka<br>India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL -->
+    <section class="social-section-elite">
+      <div class="container">
+        
+        <header class="social-header-minimal" data-reveal>
+          <span class="eyebrow">Digital Ecosystem</span>
+          <h2 class="section-title">Where we<br><em>connect</em></h2>
+        </header>
+
+        <div class="social-filmstrip">
+          <a href="https://linkedin.com/company/scalancer" class="social-film-row" target="_blank" rel="noopener noreferrer">
+            <div class="film-content">
+              <div class="film-meta">
+                <span class="film-index">01</span>
+                <span class="film-tag">Business Architecture</span>
+              </div>
+              <h3 class="film-title">LinkedIn</h3>
+              <div class="film-visual">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg>
+              </div>
+            </div>
+            <div class="film-ghost-asset">LinkedIn</div>
+          </a>
+
+          <a href="https://x.com/scalancer" class="social-film-row" target="_blank" rel="noopener noreferrer">
+            <div class="film-content">
+              <div class="film-meta">
+                <span class="film-index">02</span>
+                <span class="film-tag">Thought Process</span>
+              </div>
+              <h3 class="film-title">X</h3>
+              <div class="film-visual">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 4l11.733 16h4.267l-11.733-16zM4 20l6.768-6.768m2.464-2.464L20 4"/></svg>
+              </div>
+            </div>
+            <div class="film-ghost-asset">X</div>
+          </a>
+
+          <a href="https://github.com/scalancer" class="social-film-row" target="_blank" rel="noopener noreferrer">
+            <div class="film-content">
+              <div class="film-meta">
+                <span class="film-index">03</span>
+                <span class="film-tag">Open Source Legacy</span>
+              </div>
+              <h3 class="film-title">GitHub</h3>
+              <div class="film-visual">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </div>
+            </div>
+            <div class="film-ghost-asset">GitHub</div>
+          </a>
+
+          <a href="https://youtube.com/@scalancer" class="social-film-row" target="_blank" rel="noopener noreferrer">
+            <div class="film-content">
+              <div class="film-meta">
+                <span class="film-index">04</span>
+                <span class="film-tag">YouTube</span>
+              </div>
+              <h3 class="film-title">YouTube</h3>
+              <div class="film-visual">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+                  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="currentColor" />
+                </svg>
+              </div>
+            </div>
+            <div class="film-ghost-asset">YouTube</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer-elite">
+    <div class="footer-glass-sheen"></div>
+    
+    <div class="container">
+      <div class="footer-branding" data-reveal>
+        <div class="footer-logo-wrap">
+          <img src="images/scalancer_bold.png" alt="data-brand-name Logo" class="footer-main-logo">
+        </div>
+        <h2 class="footer-ghost-title" data-brand-name></h2>
+      </div>
+
+      <div class="footer-grid">
+        <div class="footer-column">
+          <span class="section-eyebrow">Navigation</span>
+          <ul class="footer-links">
+            <li><a href="#main">Initiate</a></li>
+            <li><a href="#services">Disciplines</a></li>
+            <li><a href="#work">Artifacts</a></li>
+            <li><a href="#contact">Consultation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <span class="section-eyebrow">Connect</span>
+          <ul class="footer-links">
+            <li><a href="https://linkedin.com/company/scalancer">LinkedIn</a></li>
+            <li><a href="https://github.com/scalancer">GitHub</a></li>
+            <li><a href="https://x.com/scalancer">X</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column contact-col">
+          <span class="section-eyebrow">Legal</span>
+          <ul class="footer-links">
+            <li><a href="javascript:void(0)" id="open-privacy">Privacy Protocol</a></li>
+            <li><a href="javascript:void(0)" id="open-terms">Terms of Service</a></li>
+          </ul>
+          <div class="legal-overlay" id="legal-overlay">
+            <div class="legal-modal" id="modal-privacy">
+              <div class="modal-header">
+                <div class="modal-meta">DOC_ID: EX_PRIVACY_2026</div>
+                <button class="modal-close">&times;</button>
+              </div>
+              <div class="modal-body">
+                <h2 class="modal-title">Privacy <em>Protocol</em></h2>
+                <div class="modal-text">
+                  <p>Your data is treated as architectural integrity. We collect minimal telemetry required for platform performance.</p>
+                  <h4>01. Data Encryption</h4>
+                  <p>All project briefings and communication lines are protected via end-to-end industry standard encryption protocols.</p>
+                  <h4>02. Information Disclosure</h4>
+                  <p><span data-brand-name></span> does not monetize user metadata. Information is only shared with engineering partners explicitly authorized by the client.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="legal-modal" id="modal-terms">
+              <div class="modal-header">
+                <div class="modal-meta">DOC_ID: EX_TERMS_2026</div>
+                <button class="modal-close">&times;</button>
+              </div>
+              <div class="modal-body">
+                <h2 class="modal-title">Terms of <em>Service</em></h2>
+                <div class="modal-text">
+                  <p>By initiating a consultation, you agree to the <span data-brand-name></span> engineering standard of engagement.</p>
+                  <h4>01. Intellectual Property</h4>
+                  <p>Artifacts delivered under a "Full Ownership" contract remain the exclusive property of the client upon final settlement.</p>
+                  <h4>02. Service Uptime</h4>
+                  <p>Our SaaS infrastructures are engineered for 99.9% reliability, excluding scheduled maintenance windows.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-column contact-col">
+          <span class="section-eyebrow">Headquarters</span>
+          <p class="footer-address">
+            Bengaluru, Karnataka<br>
+            India
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-line"></div>
+        <div class="bottom-content">
+          <p class="copyright">© 2026 <span data-brand-upper></span>. ALL RIGHTS RESERVED.</p>
+          <div class="footer-status">
+            <div class="pulse-dot"></div>
+            System Status: Optimal
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- SCRIPTS -->
+
+  <!-- FULLSCREEN MENU -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggleBtn = document.querySelector('.kinetic-toggle');
+      const fullscreenMenu = document.querySelector('.fullscreen-menu');
+      const menuLinks = document.querySelectorAll('.menu-link');
+      const closeBtn = document.querySelector('.menu-close-btn');
+
+      if (!toggleBtn || !fullscreenMenu) return; 
+
+      const toggleMenu = () => {
+        const isExpanded = toggleBtn.getAttribute('aria-expanded') === 'true';
+        
+        if (isExpanded) {
+          toggleBtn.setAttribute('aria-expanded', 'false');
+          fullscreenMenu.classList.remove('is-open');
+          fullscreenMenu.setAttribute('aria-hidden', 'true');
+          
+          setTimeout(() => { document.body.style.overflow = 'auto'; }, 800);
+        } else {
+          fullscreenMenu.classList.remove('is-fading-out');
+          toggleBtn.setAttribute('aria-expanded', 'true');
+          fullscreenMenu.classList.add('is-open');
+          fullscreenMenu.setAttribute('aria-hidden', 'false');
+          document.body.style.overflow = 'hidden';
+        }
+      };
+
+      toggleBtn.addEventListener('click', toggleMenu);
+      if (closeBtn) closeBtn.addEventListener('click', toggleMenu);
+
+      menuLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault(); 
+
+          const targetId = link.getAttribute('href');
+          const targetSection = document.querySelector(targetId);
+
+          if (fullscreenMenu.classList.contains('is-open')) {
+            toggleBtn.setAttribute('aria-expanded', 'false');
+            fullscreenMenu.setAttribute('aria-hidden', 'true');
+            
+            fullscreenMenu.classList.add('is-fading-out');
+
+            setTimeout(() => {
+              document.body.style.overflow = 'auto';
+              
+              if (targetSection) {
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+              }
+              
+              fullscreenMenu.classList.remove('is-open', 'is-fading-out');
+            }, 600); 
+          }
+        });
+      });
+    });
+  </script>
+
+
+  <!-- TYPING EFFECT FOR MANIFESTO -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var typingEl = document.getElementById("typing-text-manifesto"); 
+      
+      if (!typingEl) return;
+
+      var typingText = "We believe great systems start with clear thinking and careful design. A close knit team of engineers working from initial sketches to fully deployed solutions using a structured, engineering led approach.";
+      var typingIndex = 0;
+      var hasStarted = false;
+      
+      var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      function runTypeEffect() {
+        if (typingIndex < typingText.length) {
+          typingEl.textContent += typingText.charAt(typingIndex);
+          typingIndex++;
+          
+          var delay = 100;
+          
+          if (typingIndex > 1 && typingText.charAt(typingIndex - 2) === "." && typingText.charAt(typingIndex - 1) === " ") {
+            delay = 680; 
+          }
+          
+          setTimeout(runTypeEffect, delay);
+        } else {
+          typingEl.classList.add("typing-text--complete");
+          
+          typingEl.classList.add("is-finished"); 
+
+          /* ── OPTIONAL INFINITE LOOP ── 
+            In premium design, a "Manifesto" usually types once and stays 
+            on screen permanently so the user can read it. 
+            If you want it to erase and restart forever like your snippet, 
+            remove the /* and */ /* comments around the block below: */
+          
+          /*
+          setTimeout(function () {
+            typingEl.classList.remove("typing-text--complete");
+            typingEl.classList.remove("is-finished"); // Hides signature
+            typingEl.textContent = "";
+            typingIndex = 0;
+            setTimeout(runTypeEffect, 600);
+          }, 3400);
+          */
+        }
+      }
+
+      function startTyping() {
+        typingEl.classList.add("typing-text--ready");
+        setTimeout(runTypeEffect, 100);
+      }
+
+      if (prefersReducedMotion) {
+        typingEl.textContent = typingText;
+        typingEl.classList.add("typing-text--static");
+        typingEl.classList.add("is-finished"); 
+      } else {
+        var observer = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting && !hasStarted) {
+              hasStarted = true;
+              
+              setTimeout(startTyping, 600); 
+              
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.5 });
+        observer.observe(document.querySelector('.manifesto-card'));
+      }
+    });
+  </script>
+
+
+  <script src="script.js"></script>
+
+  <!-- FULLSCREEN PHOTO -->
+  <div id="photo-modal" class="photo-modal">
+    <div class="modal-close">&times;</div>
+    <img id="modal-image" src="" alt="Full Screen View">
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const viewButtons = document.querySelectorAll('.view-btn');
+      const modal = document.getElementById('photo-modal');
+      const modalImg = document.getElementById('modal-image');
+      const closeBtn = document.querySelector('.modal-close');
+
+      viewButtons.forEach(button => {
+        button.addEventListener('click', (e) => {
+          e.preventDefault(); 
+          
+          const galleryItem = button.closest('.gallery-item');
+          const photo = galleryItem.querySelector('.gallery-photo');
+          
+          if (photo) {
+            modalImg.src = photo.src; 
+            modal.classList.add('active'); 
+          }
+        });
+      });
+
+      const closeModal = () => {
+        modal.classList.remove('active');
+        setTimeout(() => { modalImg.src = ''; }, 500); 
+      };
+
+      closeBtn.addEventListener('click', closeModal);
+
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.classList.contains('active')) {
+          closeModal();
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
