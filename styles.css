@@ -145,7 +145,7 @@ em { font-style: italic; color: var(--gold); }
 }
 
 .logo-img {
-  height: 48px;
+  height: 18px;
   width: auto;
   object-fit: contain;
 
@@ -1966,6 +1966,7 @@ em { font-style: italic; color: var(--gold); }
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+
 .glass-field input, 
 .glass-field select, 
 .glass-field textarea {
@@ -1976,6 +1977,18 @@ em { font-style: italic; color: var(--gold); }
   color: #fff;
   font-size: 1.1rem;
   outline: none;
+}
+
+.glass-field select {
+  color: rgba(255, 255, 255, 0.4); /* default faded */
+  appearance: none; /* remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* When user selects something */
+.glass-field select.valid {
+  color: #fff;
 }
 
 .glass-row {
@@ -2108,7 +2121,7 @@ em { font-style: italic; color: var(--gold); }
 }
 
 .footer-main-logo {
-  height: 58px;
+  height: 25px;
   width: auto;
   object-fit: contain;
 
@@ -2148,20 +2161,21 @@ em { font-style: italic; color: var(--gold); }
 }
 
 .footer-ghost-title {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12vw;
-  color: rgba(255, 255, 255, 0.05);
+  font-family: var(--font-display);
+  font-size: 13vw;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.03);
   text-transform: uppercase;
   letter-spacing: 0.2em;
   line-height: 1;
   pointer-events: none;
   position: absolute;
   
-  bottom: -200px; 
+  bottom: -230px; 
   
   white-space: nowrap;
   
-  left: 50%;
+  left: 51%;
   transform: translateX(-50%);
   user-select: none;
 }
