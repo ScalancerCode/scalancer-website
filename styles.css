@@ -1959,7 +1959,7 @@ em { font-style: italic; color: var(--gold); }
 
 .glass-field {
   position: relative;
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(0, 0, 0, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 20px;
   overflow: hidden;
@@ -1967,40 +1967,59 @@ em { font-style: italic; color: var(--gold); }
 }
 
 
+/* INPUT + TEXTAREA */
 .glass-field input, 
-.glass-field select, 
 .glass-field textarea {
   width: 100%;
-  padding: 25px;
-  background: transparent;
-  border: none;
+  padding: 16px;
+  background: #111; /* solid dark */
+  border: 1px solid #333;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1rem;
   outline: none;
+  border-radius: 6px;
 }
 
+/* ✅ CLEAN SELECT (no glass, no bugs) */
 .glass-field select {
-  color: rgba(255, 255, 255, 0.4); /* default faded */
-  appearance: none; /* remove default arrow */
+  width: 100%;
+  padding: 16px;
+  background: #111;
+  border: 1px solid #333;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 
-/* When user selects something */
-.glass-field select.valid {
+/* Dropdown options */
+.glass-field select option {
+  background: #111;
   color: #fff;
 }
 
+/* Placeholder style */
+.glass-field select:invalid {
+  color: #777;
+}
+
+/* Focus state */
+.glass-field select:focus,
+.glass-field input:focus,
+.glass-field textarea:focus {
+  border-color: #c9a96e;
+}
+
+/* Layout stays same */
 .glass-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
-}
-
-.glass-field:hover, .glass-field:focus-within {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(201, 169, 110, 0.3);
-  transform: translateY(-2px);
 }
 
 .kinetic-submit {

@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const BRAND_CONFIG = {
     name: "Scalancer",
-    tagline: "Engineering the Future of Digital Innovation",
+    tagline: "Sketching the Future",
     toUpperCase: "SCALANCER"
   };
 
